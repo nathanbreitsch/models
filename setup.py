@@ -11,6 +11,6 @@ setup(
     version='0.1',
     install_requires=REQUIRED_PACKAGES,
     include_package_data=True,
-    packages=[p for p in find_packages() if p.startswith('object_detection')],
+    packages=['object_detection', 'slim'],
     description='Tensorflow Object Detection Library',
 )
